@@ -9,6 +9,7 @@ app = FastAPI()
 def hello_world():
     '''
     Endpoint que exibe uma mensagem incrível do mundo da programação!
+    
 
     '''
     return {'Hello': 'World'}
