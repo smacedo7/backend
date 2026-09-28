@@ -20,6 +20,7 @@ class Estudante(Base):
     )
 
 
+
 class Matricula(Base):
     __tablename__ = 'matriculas'
 
