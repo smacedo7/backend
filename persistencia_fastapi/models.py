@@ -30,6 +30,7 @@ class Matricula(Base):
         index=True
     )
 
+
     student_id = Column(
         Integer,
         ForeignKey("estudantes.id")
